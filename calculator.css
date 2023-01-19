@@ -1,0 +1,164 @@
+.graid-num{
+width: 21%;
+height: 90px;
+background-color:white;
+border-radius: 5px;
+float:left ;
+border: white;
+margin-left: 5px;
+margin-top: 5px;
+}
+
+.div{
+    width: 400px;
+    height: 500px;
+    background-color:none;
+    border-radius: 8px;
+    margin-left: 521px;
+    margin-top: 330px;
+}
+
+.graid-go{
+    width: 84px;
+    height: 90px;
+    background-color: rgb(235, 22, 22);
+    border-radius: 5px;
+    border: white;
+    border-radius: 8px;
+    
+}
+
+/*
+.graid-result{
+    width: 200px;
+    height: 0px;
+    background-color: white;
+}
+*/
+.result{
+    width: 264px;
+    height: 89px;
+    margin-left: 5px;
+    margin-top: 1px;
+    border-radius: 8px;
+    border: white;
+}
+
+.body{
+    height: 1000px;
+    background-color: rgb(27, 233, 233);
+}
+
+.github{
+width: 85px;
+height: 35px;
+background-color: black;
+border-radius: 8px;
+margin-top: 8px;
+margin-left: 3px;
+}
+*/
+.imggit{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+.text{
+    font-size: 13px;
+    color: white;
+    margin-left: 34px;
+    margin-top: -23px;
+}
+
+.mode{
+    width: 115px;
+    height: 35px;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: -35px;
+    margin-left: 95px;
+}
+
+.moon{
+    width: 17px;
+    height: 20px;
+    border-radius: 15px;
+    margin-top: -28px;
+    margin-left: 185px;
+}
+
+.text2{
+    font-size: 13px;
+    color: white;
+    margin-left: 102px;
+    margin-top: -23px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.github{
+    background-color: black;
+    width: 94px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 7px;
+    color: white;
+}
+.img2{
+    width: 16px;
+    height: 18px;
+    border-radius: 20px;
+    margin-left: -117px;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+
+.mood{
+    width: 111px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -178px;
+    color: white;
+    font-size: 13px;
+    text-align: inherit;    
+    margin-left: 3px;
+    margin-top: 12px;
+}
+
+.img3{
+    width: 19px;
+    height: 19px;
+    margin-left: 23px;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: -18px;
+}
+
+.h2{
+    text-align: center;
+}
+
+.one{
+    background-color: gray;
+    color: white;
+}
+
+.one:hover{
+    width: 90px;
+    height: 93px;
+    filter: drop-shadow(30px 10px 4px  black);
+}
+
+.two:hover{
+    width: 90px;
+    height: 93px;
+}
