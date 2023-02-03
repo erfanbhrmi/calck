@@ -7,48 +7,36 @@
 
 <div class="div">
 
-  <h2 class="h2" >CALCULATOR</h2>
+  <h2 class="h2">CALCULATOR</h2>
 
     <div class="graid-part1" id="Dark">
-     <div class="graid-result"><input type="text" name="title" placeholder="result..." class="result" id='result'>
-        <button class="graid-go" type="button" id="C">C</button>
+      <input type="text" name="title" placeholder="result..." class="result" id="txtResult">
+        <button class="graid-go" type="button" id="C" onclick="operation(this)" >C</button>
 
-      <div class="griad-part2" id='p2'>
-        <button type="button" class="graid-num" id='one'> 1 </button>
-        <button type="button" class="graid-num" id='two'> 2 </button>
-          <button type="button" class="graid-num" id='tree'> 3 </button>
-            <button type="button" class="graid-num" id='four'> + </button>
-              <button type="button" class="graid-num" id='five'> 4 </button>
-                <button type="button" class="graid-num" id='six'> 5 </button>
-                   <button type="button" class="graid-num" id='seven'> 6 </button>
-                     <button type="button" class="graid-num" id='eight'> - </button>
-                       <button type="button" class="graid-num" id='nine'> 7 </button>
-                     <button type="button" class="graid-num" id='ten'> 8 </button>
-                  <button type="button" class="graid-num" id="el"> 9 </button>
-                <button type="button" class="graid-num" id="tw"> * </button>
-              <button type="button" class="graid-num" id="th"> / </button>
-            <button type="button" class="graid-num" id="fo"> 0 </button>
-           <button type="button" class="graid-num" id="fi"> . </button>
-         <button type="button" class="graid-num" id="si"> = </button>
-      </div>
-
-
-       <button class="github" type="submit" name="send">Github <img src="./1giyub.png" class="img2"></button>
-       <button class="mood" type="submit" name="send" onclick="Dark(),onclick= one(),
-
-        onclick=two(),onclick=tree()
-       ,onclick=result(),onclick=four()
-       ,onclick=five(),onclick=six()
-       ,onclick=seven(),onclick=eight()
-       ,onclick=nine(),onclick=ten()
-       ,onclick=el(),onclick=tw()
-       ,onclick=th(),onclick=fo()
-       ,onclick=fi(),onclick=si();"
-       
-       > Dark mode <img src="./moon.png" class="img3"></button>
-
-    </div>
+<div class="griad-part2">
+<button type="button" class="graid-num" onclick="btnnumber(this);" > 1 </button>
+ <button type="button" class="graid-num" onclick="btnnumber(this)" > 2 </button>
+  <button type="button" class="graid-num" onclick="btnnumber(this)" > 3 </button>
+   <button type="button" class="graid-num" onclick="operation(this)"  > + </button>
+    <button type="button" class="graid-num" onclick="btnnumber(this)" > 4 </button>
+     <button type="button" class="graid-num" onclick="btnnumber(this)" > 5 </button>
+      <button type="button" class="graid-num" onclick="btnnumber(this)" > 6 </button>
+       <button type="button" class="graid-num" onclick="operation(this)" > - </button>       
+        <button type="button" class="graid-num" onclick="btnnumber(this)" > 7 </button>
+          <button type="button" class="graid-num" onclick="btnnumber(this)" > 8 </button>
+         <button type="button" class="graid-num" onclick="btnnumber(this)" > 9 </button>
+        <button type="button" class="graid-num" onclick="operation(this)" > * </button>
+       <button type="button" class="graid-num" onclick="btnnumber(this)" > / </button>
+      <button type="button" class="graid-num" onclick="btnnumber(this)" > 0 </button>
+     <button type="button" class="graid-num" onclick="operation(this)" > . </button>
+    <button type="button" class="graid-num" onclick="calcy()" > = </button>
+ </div>
+    <a href="www.github.com"><button class="github" type="submit" name="send" >Github <img src="./1giyub.png" class="img2"></button></a>
+   <button class="mood" type="submit" name="send" onclick="Dark()">Dark mode <img src="./moon.png" class="img3"></button>
+ </div>
 </div>
-<script src="./calculator.js"></script>
+<script src="./calculator.js">
+
+</script>
 </body>
 </html>
